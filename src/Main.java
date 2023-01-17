@@ -119,7 +119,7 @@ public class Main {
         Mechanic mechanic4 = new Mechanic("Иван Евгеньевич", "Автомобильная компания 2", true, false, true);
         Mechanic mechanic5 = new Mechanic("Артур Денисович", "Автомобильная компания 2", false, false, true);
         Mechanic mechanic6 = new Mechanic("Денис Артурович", "Автомобильная компания 2", true, true, true);
-        Mechanic mechanic7 = new Mechanic("Дмитрий Борисович", "Автомобильная компания 2", false, true, true);
+        Mechanic mechanic7 = new Mechanic("Дмитрий Борисович", "Автомобильная компания 2", true, true, true);
 
         mechanic1.engageTechnicalService(car1, mechanic1);  //Этот механик не работает с автомобилями
         mechanic2.engageRepair(truck1, mechanic2); //Механик чинит грузовик
